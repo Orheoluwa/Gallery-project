@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .item {
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .item:hover {
+    background-color: #c40dab;
+  }
+  
+  img {
+    width: 300px;
+    max-height: 400px;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
